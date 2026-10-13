@@ -1,0 +1,42 @@
+{
+  "caption_images": 1200,
+  "caption_strings": 6000,
+  "label_rows": 6499,
+  "image_files": 1200,
+  "rows": 6000,
+  "unique_sentence_ids": 6000,
+  "duplicate_sentence_ids": [],
+  "label_mismatches": [],
+  "captioned_without_label": [],
+  "labeled_without_caption": [],
+  "captioned_without_image": [],
+  "image_without_row": [],
+  "duplicate_image_indices": {},
+  "unmatched_files": [],
+  "captions_missing_from_csv": 0,
+  "duplicate_caption_strings": 470,
+  "templated_captions": 1200,
+  "source_warnings": [],
+  "extra": {
+    "images": 1200,
+    "species": 75,
+    "split_images": {
+      "train": 957,
+      "val": 137,
+      "test": 106
+    },
+    "split_captions": {
+      "train": 4785,
+      "val": 685,
+      "test": 530
+    },
+    "split_species": {
+      "train": 75,
+      "val": 75,
+      "test": 75
+    },
+    "dataset_fingerprint": "05a5380e0b185eb18b4ad9ebc04fb5df54417305"
+  },
+  "problems": [],
+  "ok": true
+}

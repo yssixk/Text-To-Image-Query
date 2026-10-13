@@ -1,0 +1,40 @@
+{
+  "baseline_val": {
+    "species_recall@1": 0.219,
+    "species_recall@5": 0.5153,
+    "exact_recall@1": 0.1839,
+    "species_mean_rank": 12.83
+  },
+  "best_val": {
+    "species_recall@1": 0.2073,
+    "species_recall@5": 0.5109,
+    "exact_recall@1": 0.1766,
+    "species_mean_rank": 12.68
+  },
+  "last_val": {
+    "species_recall@1": 0.2073,
+    "species_recall@5": 0.5109,
+    "exact_recall@1": 0.1766,
+    "species_mean_rank": 12.68
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 2.5249,
+      "batches": 5,
+      "seconds": 1.2,
+      "val": {
+        "species_recall@1": 0.2073,
+        "species_recall@5": 0.5109,
+        "exact_recall@1": 0.1766,
+        "species_mean_rank": 12.68
+      }
+    }
+  ],
+  "saved": true,
+  "output_dir": ".freebuff\\verify\\smoke_model",
+  "trainable_parameters": 655360,
+  "tune_scope": "projection",
+  "missing_train_images": [],
+  "device": "cuda"
+}

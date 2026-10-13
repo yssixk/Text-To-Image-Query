@@ -1,0 +1,21 @@
+{
+  "model_id": "openai/clip-vit-base-patch32",
+  "checkpoint_dir": null,
+  "fingerprint": "05a5380e0b185eb18b4ad9ebc04fb5df54417305",
+  "dataset_fingerprint": "05a5380e0b185eb18b4ad9ebc04fb5df54417305",
+  "embed_dim": 512,
+  "count": 1200,
+  "device": "cuda",
+  "batch_size": 32,
+  "image_size": [],
+  "normalized": true,
+  "faiss": {
+    "built": true,
+    "note": "1200 vectors"
+  },
+  "missing_images": [],
+  "invalid_images": [],
+  "seconds": 6.08,
+  "images_per_second": 197.41,
+  "created_at": "2026-10-13T22:28:03+00:00"
+}

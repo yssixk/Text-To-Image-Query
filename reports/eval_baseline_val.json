@@ -1,0 +1,47 @@
+{
+  "split": "val",
+  "tag": "baseline_val",
+  "model": "openai/clip-vit-base-patch32",
+  "device": "cuda",
+  "candidates": 137,
+  "queries": 685,
+  "unique_query_texts": 669,
+  "repeated_query_texts": 16,
+  "species_in_split": 75,
+  "backend": "faiss",
+  "text_to_image": {
+    "exact": {
+      "recall@1": 0.1839,
+      "recall@5": 0.4759,
+      "recall@10": 0.6146,
+      "mean_rank": 16.53,
+      "median_rank": 6.0,
+      "mrr": 0.3222
+    },
+    "species": {
+      "recall@1": 0.219,
+      "recall@5": 0.5153,
+      "recall@10": 0.6628,
+      "mean_rank": 12.83,
+      "median_rank": 5.0,
+      "mrr": 0.3604
+    }
+  },
+  "image_to_text": {
+    "exact": {
+      "recall@1": 0.3285,
+      "recall@5": 0.6204,
+      "recall@10": 0.7883,
+      "mean_rank": 8.57,
+      "median_rank": 3.0,
+      "mrr": 0.4713
+    },
+    "species_top1_accuracy": 0.3869
+  },
+  "timing_seconds": {
+    "encode_unique_texts": 1.063,
+    "rank_all_queries": 0.014,
+    "per_query_ms": 0.02
+  },
+  "created_at": "2026-10-13T16:08:00+00:00"
+}

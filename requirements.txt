@@ -1,0 +1,18 @@
+# Butterfly text-to-image retrieval
+#
+# PyTorch ships its own CUDA/CPU wheel indexes. The line below is the
+# recommended NVIDIA build (works with pip install -r requirements.txt as-is).
+# Swap cu126 for cu132, or for "cpu" on a machine without an NVIDIA GPU:
+#   --extra-index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+torch==2.14.1
+torchvision==0.29.1
+transformers==5.19.0
+numpy>=2.0
+pillow>=10.0
+matplotlib>=3.8
+
+# Optional: faster similarity search on large datasets (the NumPy path is used
+# automatically when FAISS is missing).
+faiss-cpu==1.15.1; platform_system != "Darwin"
